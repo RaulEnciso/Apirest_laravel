@@ -25,6 +25,5 @@ Route::get('Cargos',[App\Http\Controllers\CargosController::class,'index']);
 Route::post('Cargos',[App\Http\Controllers\CargosController::class,'store']);
 Route::get('Cargos/{id_cargo}',[App\Http\Controllers\CargosController::class,'show']);
 Route::delete('Cargos/{id_cargo}',[App\Http\Controllers\CargosController::class,'destroy']);
-Route::put('Cargos/{id}', [App\Http\Controller\CargosController::class,'update']);
 // Route::put('Cargos',[App\Http\Controllers\CargosController::class,'update']);
 
