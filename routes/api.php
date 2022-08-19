@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::get('CargosMentirtitas',[App\Http\Controllers\CargosController::class,'index']);
+Route::get('CargosNodigasmentiritas',[App\Http\Controllers\CargosController::class,'index']);
 Route::post('Cargos',[App\Http\Controllers\CargosController::class,'store']);
 Route::get('Cargos/{id_cargo}',[App\Http\Controllers\CargosController::class,'show']);
 Route::delete('Cargos/{id_cargo}',[App\Http\Controllers\CargosController::class,'destroy']);
